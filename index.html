@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/myStyle.css"/>
+        <link rel="stylesheet" href="css/menu_gauche/style.css"/>
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    </head>
+    <body class="container-fluid">
+        <header class="row">
+            <img src="image/background-informatique.jpg"/>
+        </header>
+        <section class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="container-fluid">
+                    <!-- content header -->
+                    <div class="row" id="content_header">
+                        <div class="col">
+                            <div class="container-fluid">
+                                <!-- content header one -->
+                                <div class="row justify-content-between" id="content_header_one">
+                                    <div class="col-lg-4">
+                                        <ul>
+                                            <li>
+                                                <img src="image/menu_icon.png"/>
+                                            </li>
+                                            <li>
+                                                MENU
+                                            </li>
+                                        </ul>
+                                        <img src="image/sigle_webi4u_new_new.png"/>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <ul>
+                                            <li>
+                                                <img src="image/youtube.png"/>
+                                            </li>
+                                            <li>
+                                                <img src="image/twitter.png"/>
+                                            </li>
+                                            <li>
+                                                <img src="image/kisspng-google-social-media-google-logo-computer-icons-google-plus-5ab8b5872a8ac9.3783740715220545351743.jpg"/>
+                                            </li>
+                                            <li>
+                                                <img src="image/facebook.png"/>
+                                            </li>
+                                            <li style="color: #b5b5b5;font-weight: bold">
+                                                search<img src="image/search-icon-orange-md.png" style="margin-left: 5px"/>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- content header two -->
+                                <div class="row justify-content-center" id="content_header_two">
+                                    <table class="col-lg-6 navbar-nav">
+                                        <tr>
+                                            <td class="nav-item">
+                                                <a class="nav-link active">
+                                                    <img src="image/home_icon.png" style="width: 40px;height: 40px"/>
+                                                </a>
+                                            </td>
+                                            <td class="nav-item dropdown" >
+                                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                MOBILE
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">android</a>
+                                                <a class="dropdown-item" href="#">ios&&swift</a>
+                                                <a class="dropdown-item" href="#">windows phone</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">see all...</a>
+                                                </div>
+                                            </td>
+                                            <td class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                JAVA
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">java</a>
+                                                <a class="dropdown-item" href="#">java web</a>
+                                                <a class="dropdown-item" href="#">spring</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">see all...</a>
+                                                </div>
+                                            </td>
+                                            <td class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                OFFICE
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Exel</a>
+                                                <a class="dropdown-item" href="#">office 360</a>
+                                                <a class="dropdown-item" href="#">word</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">see all...</a>
+                                                </div>
+                                            </td>
+                                            <td class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                .NET
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Microsoft dotNet</a>
+                                                <a class="dropdown-item" href="#">visuel studio</a>
+                                                <a class="dropdown-item" href="#">asp.net</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">see all...</a>
+                                                </div>
+                                            </td>
+                                            
+                                        </tr>                                           
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- blog index content -->
+                <div class="container-fluid" id="content">
+                    <!-- blog content panination gabarie -->
+                    <div class="row" id="content_pagination">
+                        <div class="col">
+                            <ul>
+                                <li>
+                                    1
+                                </li>
+                                <li>
+                                    2
+                                </li>
+                                <li>
+                                    3
+                                </li>
+                                <li class="content_pagination_item_activ">
+                                    4
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- blog content principale -->
+                    <div class="row">
+                        <!-- blog lst article -->
+                        <div class="col-lg-8" id="lst_article">
+                            <!-- article one -->
+                            <div class="container-fluid lst_article_item">
+                                <div class="row">
+                                    <!-- article image -->
+                                    <div class="col-lg-5 lst_article_item_img">
+                                        <img src="image/imag.png"/>
+                                    </div>
+                                    <!-- article partie droite -->
+                                    <div class="col lst_article_item_content">
+                                        <div class="container-fluid">
+                                            <!-- article categorie -->
+                                            <div class="row lst_article_item_content_categorie">
+                                                <div class="col">
+                                                    <em>Business</em>
+                                                </div>
+                                            </div>
+                                            <!-- article title -->
+                                            <div class="row lst_article_item_content_title">
+                                                <div class="col">
+                                                    <h2>
+                                                        Learn How to do a smart Seo Project for your web site
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <!-- article marge -->
+                                            <div class="row lst_article_item_content_marge">
+                                                <div class="col">
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/document.png"/>
+                                                        </li>
+                                                        <li>
+                                                           Mouhamed ali derwich
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/thumbs_up_like-512.png"/>
+                                                        </li>
+                                                        <li>
+                                                            5
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/clock-308938_640.png"/>
+                                                        </li>
+                                                        <li>
+                                                            Juin 07, 2018
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- article content desc -->
+                                            <div class="row lst_article_item_content_description">
+                                                <div class="col">
+                                                    <p>
+                                                    it is a form for adding a customer to a database of a bench
+                                                    The registration of the bank client is done on 4 stage:
+                                                        <a href="">
+                                                            Read more...
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="container-fluid lst_article_item">
+                                <div class="row">
+                                    <!-- article image -->
+                                    <div class="col-lg-5 lst_article_item_img">
+                                        <img src="image/imag.png"/>
+                                    </div>
+                                    <!-- article partie droite -->
+                                    <div class="col lst_article_item_content">
+                                        <div class="container-fluid">
+                                            <!-- article categorie -->
+                                            <div class="row lst_article_item_content_categorie">
+                                                <div class="col">
+                                                    <em>Business</em>
+                                                </div>
+                                            </div>
+                                            <!-- article title -->
+                                            <div class="row lst_article_item_content_title">
+                                                <div class="col">
+                                                    <h2>
+                                                        Learn How to do a smart Seo Project for your web site
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <!-- article marge -->
+                                            <div class="row lst_article_item_content_marge">
+                                                <div class="col">
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/document.png"/>
+                                                        </li>
+                                                        <li>
+                                                           Mouhamed ali derwich
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/thumbs_up_like-512.png"/>
+                                                        </li>
+                                                        <li>
+                                                            5
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/clock-308938_640.png"/>
+                                                        </li>
+                                                        <li>
+                                                            Juin 07, 2018
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- article content desc -->
+                                            <div class="row lst_article_item_content_description">
+                                                <div class="col">
+                                                    <p>
+                                                    it is a form for adding a customer to a database of a bench
+                                                    The registration of the bank client is done on 4 stage:
+                                                        <a href="">
+                                                            Read more...
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="container-fluid lst_article_item">
+                                <div class="row">
+                                    <!-- article image -->
+                                    <div class="col-lg-5 lst_article_item_img">
+                                        <img src="image/imag.png"/>
+                                    </div>
+                                    <!-- article partie droite -->
+                                    <div class="col lst_article_item_content">
+                                        <div class="container-fluid">
+                                            <!-- article categorie -->
+                                            <div class="row lst_article_item_content_categorie">
+                                                <div class="col">
+                                                    <em>Business</em>
+                                                </div>
+                                            </div>
+                                            <!-- article title -->
+                                            <div class="row lst_article_item_content_title">
+                                                <div class="col">
+                                                    <h2>
+                                                        Learn How to do a smart Seo Project for your web site
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <!-- article marge -->
+                                            <div class="row lst_article_item_content_marge">
+                                                <div class="col">
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/document.png"/>
+                                                        </li>
+                                                        <li>
+                                                           Mouhamed ali derwich
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/thumbs_up_like-512.png"/>
+                                                        </li>
+                                                        <li>
+                                                            5
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/clock-308938_640.png"/>
+                                                        </li>
+                                                        <li>
+                                                            Juin 07, 2018
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- article content desc -->
+                                            <div class="row lst_article_item_content_description">
+                                                <div class="col">
+                                                    <p>
+                                                    it is a form for adding a customer to a database of a bench
+                                                    The registration of the bank client is done on 4 stage:
+                                                        <a href="">
+                                                            Read more...
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="container-fluid lst_article_item">
+                                <div class="row">
+                                    <!-- article image -->
+                                    <div class="col-lg-5 lst_article_item_img">
+                                        <img src="image/imag.png"/>
+                                    </div>
+                                    <!-- article partie droite -->
+                                    <div class="col lst_article_item_content">
+                                        <div class="container-fluid">
+                                            <!-- article categorie -->
+                                            <div class="row lst_article_item_content_categorie">
+                                                <div class="col">
+                                                    <em>Business</em>
+                                                </div>
+                                            </div>
+                                            <!-- article title -->
+                                            <div class="row lst_article_item_content_title">
+                                                <div class="col">
+                                                    <h2>
+                                                        Learn How to do a smart Seo Project for your web site
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <!-- article marge -->
+                                            <div class="row lst_article_item_content_marge">
+                                                <div class="col">
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/document.png"/>
+                                                        </li>
+                                                        <li>
+                                                           Mouhamed ali derwich
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/thumbs_up_like-512.png"/>
+                                                        </li>
+                                                        <li>
+                                                            5
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li>
+                                                            <img src="image/clock-308938_640.png"/>
+                                                        </li>
+                                                        <li>
+                                                            Juin 07, 2018
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- article content desc -->
+                                            <div class="row lst_article_item_content_description">
+                                                <div class="col">
+                                                    <p>
+                                                    it is a form for adding a customer to a database of a bench
+                                                    The registration of the bank client is done on 4 stage:
+                                                        <a href="">
+                                                            Read more...
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            
+                        </div>
+                        <!-- blog index marge page -->
+                        <div class="col-lg" id="blog_index_marge">
+                            <div class="container-fluid" style="padding: 0px">
+                                <!-- facebook page -->
+                                <div class="row" id="facebook_page">
+                                    <div class="col">
+                                        <img src="image/background-informatique.jpg"/>
+                                        <div>
+                                            <p>
+                                                <img src="image/fav_icon.png" style="background-color: white"/>
+                                                <em style="color: white;font-weight: bold">Sigle</em>
+                                                <br/>
+                                                <em style="color: white;font-style: initial">3.152 likes</em>
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <button>
+                                                <img src="image/Facebook-icon.png"/>Like page
+                                            </button>
+                                            <button>
+                                                <img src="image/local_grocery_store_grey_192x192.png"/>Shop now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- mail box news -->
+                                <div class="row" id="mail_box_news">
+                                    <div class="col">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col">
+                                                    EMAIL NEWSLETTERS
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <p>
+                                                        Subscribe to receive inspiration,<br/>
+                                                        ideas, and news in your box
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <input type="email" placeholder="Email address..."/>
+                                                    <input type="button" value="Submit"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- pub -->
+                                <div class="row" id="blog_pub">
+                                    <div class="col">
+                                        <img src="image/pub.png"/>
+                                    </div>
+                                </div>
+                                <!-- blog rx tab  -->
+                                <div class="row" id="blog_rx_tab">
+                                    <div class="col">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    100+ Social Counters
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="image/Twitter-icon_2.png"/>
+                                                    <em style="font-weight: bold;margin-left: 15px">288</em>
+                                                </td>
+                                                <td>
+                                                    followers
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="image/official-facebook-icon-png-4.png"/>
+                                                    <em style="font-weight: bold;margin-left: 15px">288</em>
+                                                </td>
+                                                <td>
+                                                    followers
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="image/googleplus.png"/>
+                                                    <em style="font-weight: bold;margin-left: 15px">288</em>
+                                                </td>
+                                                <td>
+                                                    followers
+                                                </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>
+                                                    <img src="image/pinterest-icon-png-3.png"/>
+                                                    <em style="font-weight: bold;margin-left: 15px">288</em>
+                                                </td>
+                                                <td>
+                                                    followers
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="menu_gauche/script.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </body>
+</html>
